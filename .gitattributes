@@ -1,0 +1,26 @@
+## AUTO-DETECT
+##   Handle line endings automatically for files detected as
+##   text and leave all files detected as binary untouched.
+##   This will handle all files NOT defined below.
+* text=auto
+
+*.css      text
+*.html     text
+*.js       text
+
+*.markdown   text
+*.md         text
+*.txt        text
+AUTHORS      text
+CONTRIBUTING text
+copyright    text
+LICENSE      text
+*README*     text
+
+*.gif  binary
+*.ico  binary
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.svg  text
+*.webp binary
